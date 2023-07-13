@@ -1,6 +1,6 @@
 Deploying: https://trivia-quiz-app-cyan.vercel.app/
 
-#  `Mini Ecommerce using Redux Toolkit, Fake Store Api, Tailwind CSS`
+#  `Quiz-App using Trivia API, Tailwind CSS`
 
 # 1) `npm i`
 # 2) `npm start`

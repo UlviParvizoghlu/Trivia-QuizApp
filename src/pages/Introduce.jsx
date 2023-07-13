@@ -4,7 +4,7 @@ import Dropdown from '../components/Dropdown';
 import { useNavigate } from 'react-router-dom';
 const Introduce = () => {
 
-  const difficulty = ['easy', 'medium', 'hard']
+  const difficulty = ['Choose difficulty level','easy', 'medium', 'hard']
   const [difficultyChange, setDifficultyChange] = useState('')
 
   const navigate = useNavigate()
@@ -23,7 +23,7 @@ const Introduce = () => {
       <div className='max-w-[700px] bg-white w-[100%] flex flex-col items-center justify-center p-[1.5rem] rounded-lg border-transparent'>
         <img src={logo} alt="" />
         <Dropdown data={difficulty} setDifficultyChange={setDifficultyChange}/>
-        <div onClick={startQuiz} className='w-[350px] h-[50px] text-xl font-semibold cursor-pointer mt-[1rem] bg-purple-600 text-white border-transparent rounded-lg flex items-center justify-center'>Quiz-ə başla</div>
+        <div onClick={startQuiz} className='w-[350px] h-[50px] text-xl font-semibold cursor-pointer mt-[1rem] bg-purple-600 text-white border-transparent rounded-lg flex items-center justify-center'>Start Quiz</div>
       </div>
     </div>
   );

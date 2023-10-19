@@ -1,4 +1,4 @@
-Deploying: https://trivia-quiz-app-cyan.vercel.app/
+
 
 #  `Quiz-App using Trivia API, Tailwind CSS`
 
